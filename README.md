@@ -1,5 +1,7 @@
 # Road Traffic Simulation MAS (Multi-Agent Systems)
 
+![MULTI-AGENT SYSTEMS — Urban traffic modelling with NetLogo](assets/portfolio-banner.svg)
+
 Academic NetLogo project modelling urban road traffic as a multi-agent system. The submitted model represents cars, motorcycles, buses, pedestrians, police officers, traffic lights, roads and bus stops, with configurable demand, weather and GPS adoption.
 
 ![Submitted NetLogo interface](images/netlogo-interface.png)
