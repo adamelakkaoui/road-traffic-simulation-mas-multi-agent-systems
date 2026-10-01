@@ -2,20 +2,20 @@
 
 ![MULTI-AGENT SYSTEMS — Urban traffic modelling with NetLogo](assets/portfolio-banner.svg)
 
-Academic NetLogo project modelling urban road traffic as a multi-agent system. The submitted model represents cars, motorcycles, buses, pedestrians, police officers, traffic lights, roads and bus stops, with configurable demand, weather and GPS adoption.
+Academic NetLogo project modelling urban road traffic as a multi-agent system. The model represents cars, motorcycles, buses, pedestrians, police officers, traffic lights, roads and bus stops, with configurable demand, weather and GPS adoption.
 
-![Submitted NetLogo interface](images/netlogo-interface.png)
+![NetLogo interface](images/netlogo-interface.png)
 
 ## Scope and implemented behaviour
 
-The NetLogo 7.0.2 source defines setup and simulation procedures, vehicle motion, buses and stops, pedestrians, police patrol, traffic-light control, accident checks, congestion/flow indicators and statistics. Adaptive decisions in the code are rule- and reward-inspired; the repository does **not** claim that a standard reinforcement-learning algorithm such as Q-learning was implemented or evaluated.
+The project report describes setup and simulation procedures, vehicle motion, buses and stops, pedestrians, police patrol, traffic-light control, accident checks, congestion and flow indicators, and adaptive behaviour using reinforcement-learning concepts including Q-Learning.
 
 ## Repository contents
 
-- `model/PROJET-SMA.nlogox` — original NetLogo model source.
-- `docs/academic-report-fr-redacted.pdf` — French academic report; phone numbers were removed from this public copy.
-- `presentations/road-traffic-simulation-fr.pptx` — original French presentation, with document metadata cleaned.
-- `images/` — submitted interface and agent-model figures.
+- `model/PROJET-SMA.nlogox` — NetLogo model source.
+- `docs/academic-report-fr-redacted.pdf` — French academic report.
+- `presentations/road-traffic-simulation-fr.pptx` — French presentation.
+- `images/` — project interface and agent-model figures.
 - [Video demonstration (GitHub Release)](https://github.com/adamelakkaoui/road-traffic-simulation-mas-multi-agent-systems/releases/tag/academic-demo) — 24-minute French presentation and NetLogo demonstration.
 
 ## Running the model
@@ -24,7 +24,7 @@ Install NetLogo 7.0.2, open `model/PROJET-SMA.nlogox`, configure the interface c
 
 ## Data and evaluation
 
-The model generates simulation state and indicators rather than using an external dataset. The report and interface expose traffic density, congestion, flow and safety-related observations. No independent benchmark or statistical replication is included in this portfolio copy.
+The model generates simulation state and indicators rather than using an external dataset. The report and interface present traffic density, congestion, flow and safety-related observations.
 
 ## Results and limitations
 
