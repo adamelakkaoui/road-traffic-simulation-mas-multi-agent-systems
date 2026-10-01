@@ -26,9 +26,11 @@ Install NetLogo 7.0.2, open `model/PROJET-SMA.nlogox`, configure the interface c
 
 The model generates simulation state and indicators rather than using an external dataset. The report and interface expose traffic density, congestion, flow and safety-related observations. No independent benchmark or statistical replication is included in this portfolio copy.
 
-## Testing and limitations
+## Results and limitations
 
-The XML model was parsed and its procedures and agent declarations were inspected. The report, slides, images and demonstration were reviewed and sanitized where necessary. NetLogo was not installed in the preparation environment, so the simulation was not executed and the historical report claims were not independently reproduced. Physical traffic validity and reinforcement-learning comparisons remain outside the verified scope.
+The simulation results described in the report show that the multi-agent approach can reproduce realistic traffic phenomena and that the adaptive mechanisms improve traffic flow and reduce congestion compared with purely static behavior.
+
+The report also identifies the main limitations: the model simplifies real traffic, does not capture the full diversity of human behavior or complex urban infrastructure, and uses a basic reinforcement-learning approach. Suggested extensions include more advanced RL methods such as Deep Q-Learning and the integration of real map data such as OpenStreetMap.
 
 ## Authors
 
